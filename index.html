@@ -5,25 +5,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rise</title>
-  <link rel="shortcut icon" href="img/favicon_conejo.png" type="image/x-icon" />
+  <title>Decoraciones Johana</title>
   <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="shortcut icon" href="img/favicon_conejo.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
   <header>
-
     <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Portafolios</a>
-      <a href="#">Contacto</a>
+      <a href="#nav_inicio">Quienes Somos?</a>
+      <a href="#nav_portafolio">Portafolios</a>
+      <a href="#nav_redes">Redes Sociales</a>
+      <a href="#nav_redes">Nuestros Servicios</a>
     </nav>
 
-    <section>
-      <h1>Es un gusto atenderte</h1>
-      <h1>Los mejores detalles hechos a mano</h1>
+    <section class="textos-header">
+      <h1>Decoraciones Rise</h1>
+      <h2>Los mejores detalles hechos a mano</h2>
       <div class="wave" style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
           <path d="M-8.74,71.55 C149.99,150.00 468.11,-2.44 509.31,87.34 L500.00,150.00 L0.00,150.00 Z"
@@ -31,45 +34,67 @@
         </svg>
       </div>
     </section>
-
   </header>
 
   <main>
-
-    <section class="contenedor quienes-somos">
-      <h2 class="titulo">Inicio</h2>     
-      <div class="contenedor">
-        <img src="img/fondo_dos.jpg" alt="" />
-        <div class="contenido_texto_inicio">
-          <h3><span>1</span> Trabajo 100% casero y artesanal</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, maiores!</p>
+    <section class="contenedor sobre-nosotros">
+      <h2 id="nav_inicio" class="titulo">Quienes Somos?</h2>
+      <div class="contenedor-sobre-nosotros">
+        <img src="img/conejo_volando.png" alt="" class="imagen-inicio" />
+        
+        <div class="contenido-textos">
+          <h3><span>1</span> 100% Lana</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, harum praesentium? Assumenda sunt reiciendis
+            harum accusamus excepturi error, aspernatur blanditiis tenetur voluptate suscipit ullam voluptatem
+            distinctio fugit amet nam accusantium.</p>
         </div>
-        <div class="contenido_texto_inicio">
+        <div class="contenido-textos">
           <h3><span>2</span> Al mejor precio</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, maiores!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perferendis adipisci, facilis est molestiae
+            soluta corporis omnis, labore sed nostrum iure quo voluptatibus doloribus aliquam pariatur neque maiores cum
+            optio.</p>
         </div>
+      </div> 
     </section>
 
-    <section class="quienes_somos">
+    <section class="portafolio">
       <div class="contenedor">
-        <h2 class="titulo">Nuestro Portafolio</h2>
-
-        <div class="galeria-portafolio">
+        <h2 id="nav_portafolio" class="titulo">Portafolio</h2>
+        <div class="galeria-port">
           <div class="imagen-port">
             <img src="img/muñeca_moño_rojo.png" alt="" />
             <div class="hover-galeria">
-              <img src="img/icono_target.png" alt="" />
-              <p>Nuestro Trabajo</p>
+              <img src="img/selector.png" alt="" />
             </div>
           </div>
-        </div>
-
-        <div class="galeria-portafolio">
           <div class="imagen-port">
             <img src="img/ron_da_error.png" alt="" />
             <div class="hover-galeria">
-              <img src="img/icono_target.png" alt="" />
-              <p>Nuestro Trabajo</p>
+              <img src="img/selector.png" alt="" />
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img src="img/muñeca_moños.png" alt="" />
+            <div class="hover-galeria">
+              <img src="img/selector.png" alt="" />
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img src="img/muñeca_vestido_azul.png" alt="" />
+            <div class="hover-galeria">
+              <img src="img/selector.png" alt="" />
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img src="img/ballena_azul.png" alt="" />
+            <div class="hover-galeria">
+              <img src="img/selector.png" alt="" />
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img src="img/sombrero_rojo.png" alt="" />
+            <div class="hover-galeria">
+              <img src="img/selector.png" alt="" />
             </div>
           </div>
         </div>
@@ -77,46 +102,66 @@
       </div>
     </section>
 
-    <section>
-      <div class="contactanos">
-        <h2 class="titulo">Contactanos</h2>
+    <section class="clientes contenedor">
+      <h2 id="nav_redes" class="titulo">Redes Sociales</h2>
+      <div class="cards">
         <div class="card">
           <img src="img/logo_facebook.png" alt="">
-          <div class="contenido_texto_facebook">
+          <div class="contenido_texto_card">
             <h4 class="">Facebook</h4>
             <a href="https://www.facebook.com/CaronlinaR/">/CaronlinaR</a>
           </div>
+        </div>
 
-          <div class="card">
-            <img src="img/logo_instagram.jpg" alt="">
-            <div class="contenido_texto_facebook">
-              <h4 class="">Instagram</h4>
-              <a href="https://www.instagram.com/rise_mujer_/">/rise_mujer_</a>
-            </div>
+        <div class="card">
+          <img src="img/logo_instagram.png" alt="">
+          <div class="contenido_texto_card">
+            <h4 class="">Instagram</h4>
+            <a href="https://www.instagram.com/rise_mujer_/">/rise_mujer_</a>
           </div>
         </div>
+      </div>
     </section>
-  </main>
 
+    <sectioon class="Nuestros-Servicios">
+      <div class="contenedor">
+        <h2 id="nav_nuestros_servicios" class="titulo"> Nuestros Servicios</h2>
+        <div class="servicio-cont">
+          <div class="servicio-ind">
+            <img src="img/collage.jpg" alt="">
+            <h3>Detalles Tejidos</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, odit.</p>
+          </div>
+          <div class="servicio-ind">
+            <img src="img/collage.jpg" alt="">
+            <h3>Capacitación</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, odit.</p>
+          </div>
+          <div class="servicio-ind">
+            <img src="img/collage.jpg" alt="">
+            <h3>Materiales</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, odit.</p>
+          </div>
+        </div>
+      </div>
+    </sectioon>
+  </main>
   <footer>
     <div class="contenedor-footer">
       <div class="contenet-foo">
         <h4>Número Contacto</h4>
         <p>300 000 0000</p>
       </div>
-
       <div class="contenet-foo">
         <h4>Correo</h4>
         <p>correo@gmail.com</p>
       </div>
-
       <div class="contenet-foo">
         <h4>Ubicación</h4>
         <p>Tunja/Boyacá - Colombia</p>
-      </div>
-      <h2 class="Titulo-final">&copy;RubenTT91 | In-genio Medios</h2>
+      </div>      
     </div>
+    <h2 class="Titulo-final">&copy;RubenTT91 | In-genio Medios</h2>
   </footer>
 </body>
-
 </html>
